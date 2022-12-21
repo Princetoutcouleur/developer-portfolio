@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Playfair Display", serif;
+}
+.firstSection {
+  background-color: black;
+  color: white;
+}
+.firstSection .container .navbar {
+  color: white;
+  background-color: black;
+}
+.firstSection .container .navbar a {
+  color: white;
+}
+.firstSection .description {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.firstSection .logos {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.firstSection .project img {
+  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.firstSection .project a {
+  color: white;
+  text-decoration: none;
+}
+.firstSection .project a h1 {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+.firstSection .project a h1:hover {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+.secondSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #707070;
+  color: white;
+}
+.thirdSection {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+  color: white;
+}
+.fourthSection {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #707070;
+  color: white;
+}
+.fourthSection .name a{
+  text-decoration: none;
+  color: white;
+}
+.fourthSection ul li{
+  list-style: none;
+}
+.fourthSection ul li a{
+  color: white;
+}
+.fourthSection ul li a i{
+  font-size: 25px;
+}
