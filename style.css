@@ -19,26 +19,41 @@ body {
 .firstSection .description {
   padding-top: 50px;
   padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.firstSection .logos {
+.firstSection .partener{
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 50px;
 }
-.firstSection .project img {
+.firstSection .partener .logos{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.firstSection .portfolio .projets .projet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstSection .portfolio .projets .projet img {
+  width: 100%;
   margin-bottom: 20px;
   margin-bottom: 30px;
 }
-.firstSection .project a {
+.firstSection .portfolio .projets .projet a {
   color: white;
   text-decoration: none;
 }
-.firstSection .project a h1 {
+.firstSection .portfolio .projets .projet a h1 {
   color: white;
   text-decoration: none;
   margin-bottom: 20px;
 }
-.firstSection .project a h1:hover {
+.firstSection .portfolio .projets .projet a h1:hover {
   color: white;
   text-decoration: none;
   border-bottom: 1px solid white;
